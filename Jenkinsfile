@@ -9,6 +9,7 @@ pipeline {
 		stage('test') {
             steps {
                 echo 'testing...'
+				sh 'python HelloWorld.py'
             }
         }
     }
